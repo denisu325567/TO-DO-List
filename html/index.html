@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gun Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000000;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Gun Shop</h1>
+  </header>
+  <main>
+    <p>i like sleep</p>
+  </main>
+  <footer>
+    <p>&copy; 2024 Gun Shop. All rights reserved.</p>
+  </footer>
+  <main>
+    <p id="main-text">I like sleep</p>
+    <button id="change-text-button">Change Text</button>
+  </main>
+  <script>
+    // Получаем элементы из HTML
+    const button = document.getElementById('change-text-button');
+    const text = document.getElementById('main-text');
+  
+    // Добавляем обработчик события
+    button.addEventListener('click', () => {
+      text.textContent = 'JavaScript is awesome!';
+    });
+  </script>
+  button.addEventListener('click', () => {
+    text.textContent = 'JavaScript is awesome!';
+    text.style.color = 'blue';
+  });
+</body>
+</html>

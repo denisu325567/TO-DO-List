@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня "Вдохновение"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Подключение основного скрипта -->
+    <script src="script.js" defer></script>
+
+    <header>
+        <h1>Кофейня "Вдохновение"</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Секция "О нас" -->
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Добро пожаловать в нашу уютную кофейню! Мы готовим лучший кофе в городе и предлагаем свежие десерты каждый день.</p>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery">
+        <h2>Галерея</h2>
+        <div class="gallery">
+            <img src="coffee1.jpg" alt="Кофе 1">
+            <img src="coffee2.jpg" alt="Кофе 2">
+            <img src="coffee3.jpg" alt="Кофе 3">
+        </div>
+    </section>
+
+    <!-- Секция меню -->
+    <section id="menu">
+        <h2>Меню</h2>
+        <div id="menu-list">
+            Загрузка меню...
+        </div>
+    </section>
+
+    <!-- Контактная форма -->
+    <section id="contact">
+        <h2>Контакты</h2>
+        <form id="order-form">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Кофейня "Вдохновение". Все права защищены.</p>
+    </footer>
+</body>
+</html>
